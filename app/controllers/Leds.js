@@ -16,11 +16,11 @@ module.exports = function(app) {
         var led = req.params.led;
 
         if(req.params.position == 'on') {
-          if( led == 'blue' )    my.yellow.turnOn();
+          if( led == 'blue' )    my.blue.turnOn();
           if( led == 'green' )   my.green.turnOn();
         }
         else {
-          if( led == 'blue' )  my.yellow.turnOff();
+          if( led == 'blue' )  my.blue.turnOff();
           if( led == 'green' )   my.green.turnOff();
         }
 
