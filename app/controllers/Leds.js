@@ -6,10 +6,10 @@ module.exports = function(app) {
 
     connection: { name: 'raspi', adaptor: 'raspi' },
 
-    devices: [
+    devices: {
       blue: { driver: 'led', pin: 11 },
       green: { driver: 'led', pin: 7 }
-    ],
+    },
 
     work: function (my) {
       app.route('/api/:led/:position').get(function(req, res, next) {
