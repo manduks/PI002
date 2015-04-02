@@ -16,7 +16,7 @@ module.exports = function(app) {
       app.route('/api/:led/:position').get(function(req, res, next) {
         var led = req.params.led;
 
-        console.log(params);
+        console.log(req.params);
 
         every((1).second(), my.led.toggle);
 
