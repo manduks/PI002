@@ -9,6 +9,7 @@
     "cylon": "0.22.1",
     "cylon-raspi": "0.15.3",
     "cylon-gpio":"0.22.1",
+    "cylon-i2c":"0.20.1",
     "express": "^4.4.1",
     "method-override": "^2.1.1",
     "swig": "^1.4.1"
