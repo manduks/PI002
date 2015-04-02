@@ -24,7 +24,7 @@ module.exports = function(app) {
           if( led == 'green' )   my.green.turnOff();
         }
 
-        res.send(200);
+        res.sendStatus(200);
       });
     }
 
