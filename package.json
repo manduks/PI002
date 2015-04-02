@@ -1,0 +1,16 @@
+{
+  "name": "PI002",
+  "version": "0.0.1",
+  "description": "API to turn on/off Raspi LEDs",
+  "author": "Armando Gonzalez",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "consolidate": "^0.10.0",
+    "cylon": "^0.16.0",
+    "cylon-raspi": "^0.10.0",
+    "express": "^4.4.1",
+    "method-override": "^2.1.1",
+    "swig": "^1.4.1"
+  },
+  "devDependencies": {}
+}

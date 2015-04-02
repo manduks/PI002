@@ -1,0 +1,10 @@
+.idea/
+.idea/*
+*.sublime-project
+*.sublime-workspace
+.project
+.DS_Store
+*.log
+*.pem
+.sass-cache
+node_modules
